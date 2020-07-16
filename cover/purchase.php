@@ -75,7 +75,7 @@ function checkout_decode($code)
     <p class="lead"><?php echo "Total Amount - "."$".$_SESSION['total_bill'] ?></p>
     <p class="lead"><?php echo "Time of purchase - ".$_SESSION['timestamp'] ?></p>
     <p class="lead"><?php echo "Transanction done from card - "."xxxx-xxxx-xxxx-".substr($_SESSION['card'],15) ?></p>
-    <?php $_SESSION['card'] ='xxxx-xxxx-xxxx-xxxx';?>
+    
     <p class="lead">
       <a href="http://localhost/e-commerce/Home/Home.php" class="btn btn-lg btn-secondary">Return to Home</a>
     </p>
